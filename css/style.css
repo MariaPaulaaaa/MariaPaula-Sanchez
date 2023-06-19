@@ -1,0 +1,327 @@
+@import url("https://fonts.google.com/specimen/Be+Vietnam+Pro");
+
+* {
+    font-family: "Be Vietnam Pro", sans-serif;
+    margin: 0;
+    max-width: 1440px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 500;
+    width: 100%;
+    padding: 3vh 0.01vw 3vh 0.01vw;
+}
+
+.HeaderNav {
+    display: flex;
+    gap: 20px;
+    font-size: 15px;
+    color: #242E52;
+    text-align: center;
+    padding: 0.5%;
+}
+
+.NavItem:hover{
+    color: rgba(36, 46, 82, 0.6);
+    cursor: pointer;
+}
+
+.boton:hover, .boton2:hover, .boton3:hover, .boton4:hover, .boton5:hover {
+    cursor: pointer;
+}
+
+.boton {
+    background-color: #8B48BF;
+    border-radius: 50px;
+    color: white;
+    padding: 0.8% 2%;
+    font-weight: 500;
+    font-size: 15px;
+    box-shadow: #242E52;
+}
+
+.primera {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    gap: 50px;
+}
+
+.padel {
+    width: 40vw;
+    height: auto;
+}
+
+.infoPadel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.infoPadel h1 {
+    font-weight: 700;
+    color:#242E52;
+    text-align: right;
+    font-size: 50px;
+}
+
+.FinalOpen {
+    font-weight: 500;
+    color: black;
+    text-align: right;
+    font-size: 16.56px;
+}
+
+.boton2 {
+    align-self: self-end;
+    background-color: #8B48BF;
+    border-radius: 50px;
+    color: white;
+    padding: 2% 8%;
+    box-shadow: #242E52;
+}
+
+.different {
+    background-color: #8B48BF;
+    display: flex;
+    gap: 100px;
+    padding: 4vh 10vw;
+    color: white;
+}
+
+.difTitle {
+    font-weight: 700;
+    font-size: 24px;
+    width: 450px;
+    line-height: 41.26px;
+}
+
+.difInfo {
+    font-weight: 400;
+    width: 450px;
+    height: 88px;
+    text-align: justify;
+    align-self: center;
+    line-height: 24.18px;
+}
+
+.tercero {
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 23px;
+    margin-left: 3vw;
+    padding: 4vh 4vw;
+    background-color: rgba(250, 250, 250, 1);
+}
+
+.tercero article {
+    display: flex;
+    width: 553px;
+    gap: 10px;
+}
+
+.terceroInfo {
+    margin-top: 6.5px;
+    display: flex;
+    flex-direction: column;
+    width: 437px;
+    gap: 10px;
+}
+
+.tercero h2 {
+    font-weight: 700;
+    font-size: 16px;
+    color: rgba(50, 56, 81, 1);
+}
+
+.tercero p {
+    font-weight: 400;
+    font-size: 16.3px;
+    color: rgba(179, 178, 183, 1);
+    line-height: 25.52px;
+}
+
+.point {
+    padding: 2% 4%;
+    background-color: #8B48BF;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 20px;
+    align-self: flex-start;
+}
+
+.cuarto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    padding: 2% 5%;
+}
+
+.players {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 230px;
+    background-color: rgba(250, 250, 250, 1);
+    margin-top: 12vh;
+    padding: 1%;
+}
+
+.playersInfo {
+    margin-top: 7vh;
+}
+
+.fotos {
+    position: absolute;
+    display: flex;
+    gap: 310px;
+    left: 18%;
+    top: 190%; 
+}
+
+.cuartoTitle {
+    color: rgba(36, 46, 83, 1);
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.players h2 {
+    color: rgba(63, 72, 104, 1);
+    font-weight: 700;
+    font-size: 16.07px;
+    padding: 2%;
+}
+
+.players p {
+    text-align: center;
+    color: rgba(185, 185, 193, 1);
+    line-height: 25.06px;
+    padding: 4%;
+}
+
+.boton3 {
+    justify-content: flex-start;
+    align-self: center;
+    background-color: #8B48BF;
+    border-radius: 50px;
+    color: white;
+    padding: 1% 5%;
+    box-shadow: #242E52;
+    margin-top: 40px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerMorado {
+    background-color: #8B48BF;
+    display: flex;
+    flex-direction: row;
+    height: 224px;
+    color: white;
+}
+
+.footerMorado article {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 500px;
+    padding: 5% 10%;
+}
+
+.footerMorado h1 {
+    font-weight: 700;
+    font-size: 35px;
+    width: 393px;
+}
+
+.boton4 {
+    align-self: center;
+    background-color: white;
+    border-radius: 50px;
+    color:#8B48BF;
+    padding: 1% 2%;
+    text-align: center;
+    box-shadow: #242E52;
+    width: 134px;
+}
+
+.footerOscuro {
+    height: 247px;
+    background-color: rgba(30, 30, 38, 1);
+    display: flex;
+}
+
+.footerOscuroIn {
+    padding: 0% 10%;
+    height: 165px;
+    align-self: center;
+    display: flex;
+    gap: 150px;
+}
+
+.footerLogos, .footerInput {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: space-between;
+}
+
+.iconos {
+    display: flex;
+    gap: 10px;
+}
+
+.footerInput {
+    width: 270px;
+}
+
+.footerNav {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    line-height: 45px;
+}
+
+.Updates {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+input[type="email"] {
+    align-self: center;
+    background-color: white;
+    border-color: white;
+    border-radius: 50px;
+    padding: 4% 4%;
+}
+
+.boton5 {
+    align-self: center;
+    background-color:#8B48BF;
+    border-radius: 50px;
+    color:white;
+    padding: 3% 5%;
+    text-align: center;
+    box-shadow: #242E52;
+}
+
+.Copyright {
+    color: rgba(140, 140, 148, 1);
+    text-align: right;
+    font-size: 13px;
+}
