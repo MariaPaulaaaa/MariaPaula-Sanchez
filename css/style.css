@@ -27,7 +27,7 @@ header {
     display: none;
 }
 
-.NavItem:hover{
+.NavItem:hover {
     color: rgba(36, 46, 82, 0.6);
     cursor: pointer;
 }
@@ -87,7 +87,7 @@ header {
     background-color: #8B48BF;
     border-radius: 50px;
     color: white;
-    padding: 2% 8%;
+    padding: 2.5% 8%;
     box-shadow: #242E52;
 }
 
@@ -293,6 +293,11 @@ footer {
     width: 270px;
 }
 
+.footerNavContainer {
+    display: flex;
+    gap: 160px;
+}
+
 .footerNav {
     display: flex;
     flex-direction: column;
@@ -324,16 +329,27 @@ input[type="email"] {
     box-shadow: #242E52;
 }
 
+.footerNavItem:hover, .iconItem:hover {
+    color: rgba(60, 221, 243, 1);
+    cursor: pointer;
+}
+
 .Copyright {
     color: rgba(140, 140, 148, 1);
     text-align: right;
     font-size: 13px;
 }
 
-@media screen and (max-width: 480px){
+.CopyrightMob {
+    display: none;
+}
 
-    * {
-        max-width: 480px;
+@media screen and (max-width: 480px){
+    header {
+        gap: 20px;
+        justify-content: center;
+        gap: 250px;
+        width: 480px;
     }
 
     .HeaderNav, .boton {
@@ -346,4 +362,174 @@ input[type="email"] {
         color: black;
     }
 
+    .primera {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .padel {
+        width: 400px;
+    }
+
+    .different {
+        background-color: rgba(60, 221, 243, 1);
+        display: flex;
+        flex-direction: column;
+        gap: 45px;
+        padding: 40px 20px;
+        color: white;
+    }
+
+    
+    .difTitle {
+        font-size: 30px;
+        line-height: 41.26px;
+        width: 380px;
+    }
+
+    .difInfo {
+        font-weight: 400;
+        width: 440px;        
+        text-align: left;
+        line-height: 24.18px;
+    }
+    
+    .tercero {
+        margin-top: 15vh;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: end;
+        padding: 0;
+    }
+
+    .tercero article {
+        display: flex;
+        width: 408px;
+        gap: 10px;
+    }
+
+    .tercero h2 {
+        font-weight: 700;
+        font-size: 16px;
+        padding: 2.1% 7%;
+        margin-left: 8vw;
+        color: rgba(50, 56, 81, 1);
+        background-color: rgba(139, 72, 191, 0.3);
+    }
+
+    .tercero p {
+        margin-right: 6vw;
+        margin-top: 6vh;
+    }
+
+    .point {
+        position: absolute;
+        padding: 1.5% 4%;
+        margin-top: 1vh;
+    }
+
+    #Sanyo, #Navarro {
+        display: none;
+    }
+
+    .cuarto {
+        margin-top: 15vh;
+    }
+
+    .fotos {
+        position: absolute;
+        display: flex;
+        margin-left: 38vw;
+        margin-top: -40vh; 
+    }
+
+    .boton3 {
+        padding: 3% 10%;
+        margin-bottom: 10vh;
+    }
+
+    .footerMorado {
+        background-color: rgba(60, 221, 243, 1);
+        flex-direction: column;
+        height: 366px;
+        color: white;
+        padding: 5%;
+        justify-content: center;
+    }
+
+    .footerMorado span {
+        padding: 0 20%;
+    }
+
+    .footerMorado article {
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .footerMorado h1 {
+        font-weight: 700;
+        font-size: 42px;
+        width: 324px;
+        text-align: center;
+    }
+
+    .boton4 {
+        background-color: rgba(35, 44, 80, 1);
+        color:white;
+        padding: 3% 3%;
+    }
+
+    .footerOscuro {
+        height: 534.71px;
+        flex-direction: column;
+    }
+
+    .footerOscuroIn {
+        flex-direction: column-reverse;
+        margin-top: 10vh;
+        gap: 40px;
+        height: 530px;
+        justify-content: flex-end;
+        align-content: center;
+    }
+
+    .footerLogos {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .iconos {
+        display: flex;
+        gap: 50px;
+    }
+
+    .footerInput {
+        width: 100%;
+    }
+
+    .footerNavContainer {
+        gap: 120px;
+        align-self: center;
+    }
+
+    .footerNav {
+        flex-direction: column;
+        color: white;
+        line-height: 45px;
+    }
+
+    .Copyright {
+        display: none;
+    }
+
+    .CopyrightMob {
+        display: flex;
+        color: rgba(140, 140, 148, 1);
+        align-self: center;
+        font-size: 13px;
+    }
 }

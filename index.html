@@ -89,23 +89,23 @@
                 <div class="cuartoTitle"> <h1> Best of the month </h1> </div>
 
                 <div class="fotos">
-                    <img src="img/avatar-sanyo.png" alt="Sanyo">
-                    <img src="img/avatar.lebron.png" alt="Lebron">
-                    <img src="img/avatar-navarro.png" alt="Navarro">
+                    <img src="img/avatar-sanyo.png" alt="Sanyo" id="Sanyo">
+                    <img src="img/avatar.lebron.png" alt="Lebron" id="Lebron">
+                    <img src="img/avatar-navarro.png" alt="Navarro" id="Navarro">
                 </div>
 
                 <article class="players">
-                    <div class="playersInfo">
+                    <div class="playersInfo" id="Sanyo">
                         <h2> Sanyo </h2>
                         <p> Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
                     </div>
 
-                    <div class="playersInfo">
+                    <div class="playersInfo" id="Lebron">
                         <h2> Lebron </h2>
                         <p> Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
                     </div>
 
-                    <div class="playersInfo">
+                    <div class="playersInfo" id="Navarro">
                         <h2> Navarro </h2>
                         <p> Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
                     </div>
@@ -118,37 +118,41 @@
         <footer>
             <section class="footerMorado">
                 <article>
-                    <div> <h1> Get to know the best teams of the year </h1> </div>
+                    <div> <h1> Get to know the  <span> best </span> teams of the <span> year </span> </h1> </div>
                     <div class="boton4"> <p> Go for it </p> </div>
                 </article>
             </section>
 
             <section class="footerOscuro">
                 <div class="footerOscuroIn">
+                    <div class="CopyrightMob"> <p> Copyright 2020. All Rights Reserved </p> </div>
+
                     <article class="footerLogos">
                         <div> <img src="img/logoWhite.png" alt="sportit"> </div>
                         <div class="iconos">
-                            <img src="img/icon-facebook.svg" alt="Facebook">
-                            <img src="img/icon-youtube.svg" alt="YouTube">
-                            <img src="img/icon-twitter.svg" alt="Twitter">
-                            <img src="img/icon-pinterest.svg" alt="Pinterest">
-                            <img src="img/icon-instagram.svg" alt="Instagram">
+                            <img src="img/icon-facebook.svg" class="iconItem" alt="Facebook">
+                            <img src="img/icon-youtube.svg" class="iconItem" alt="YouTube">
+                            <img src="img/icon-twitter.svg" class="iconItem" alt="Twitter">
+                            <img src="img/icon-pinterest.svg" class="iconItem" alt="Pinterest">
+                            <img src="img/icon-instagram.svg" class="iconItem" alt="Instagram">
                         </div>
                     </article>
     
-                    <article class="footerNav">
-                        <nav> Home </nav>
-                        <nav> Pricing </nav>
-                        <nav> Products </nav>
-                        <nav> About us </nav>
-                    </article> 
-
-                    <article class="footerNav">
-                        <nav> Training </nav>
-                        <nav> Community </nav>
-                        <nav> Privacy policy </nav>
-                    </article>
+                    <article class="footerNavContainer">
+                        <div class="footerNav">
+                            <nav class="footerNavItem"> Home </nav>
+                            <nav class="footerNavItem"> Pricing </nav>
+                            <nav class="footerNavItem"> Products </nav>
+                            <nav class="footerNavItem"> About us </nav>
+                        </div> 
     
+                        <div class="footerNav">
+                            <nav class="footerNavItem"> Training </nav>
+                            <nav class="footerNavItem"> Community </nav>
+                            <nav class="footerNavItem"> Privacy policy </nav>
+                        </div>
+                    </article>
+                        
                     <article class="footerInput">
                         <div class="Updates">
                             <input type="email" name="email" id="email" required
