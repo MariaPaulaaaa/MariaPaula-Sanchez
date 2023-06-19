@@ -90,7 +90,7 @@ header {
 .different {
     background-color: #8B48BF;
     display: flex;
-    gap: 100px;
+    gap: 140px;
     padding: 4vh 10vw;
     color: white;
 }
@@ -106,7 +106,7 @@ header {
     font-weight: 400;
     width: 450px;
     height: 88px;
-    text-align: justify;
+    text-align: left;
     align-self: center;
     line-height: 24.18px;
 }
@@ -184,9 +184,9 @@ header {
 .fotos {
     position: absolute;
     display: flex;
-    gap: 310px;
-    left: 18%;
-    top: 190%; 
+    gap: 330px;
+    margin-left: 12.5vw;
+    margin-top: -20vh; 
 }
 
 .cuartoTitle {
@@ -270,7 +270,7 @@ footer {
     height: 165px;
     align-self: center;
     display: flex;
-    gap: 150px;
+    gap: 170px;
 }
 
 .footerLogos, .footerInput {
