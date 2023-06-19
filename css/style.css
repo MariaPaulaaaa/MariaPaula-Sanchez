@@ -34,6 +34,11 @@ header {
 
 .boton:hover, .boton2:hover, .boton3:hover, .boton4:hover, .boton5:hover {
     cursor: pointer;
+    background: linear-gradient(-45deg, #8B48BF, #c188ec);
+}
+
+.boton4:hover {
+    color: white;
 }
 
 .boton {
@@ -43,7 +48,7 @@ header {
     padding: 0.8% 2%;
     font-weight: 500;
     font-size: 15px;
-    box-shadow: #242E52;
+    box-shadow: rgba(31, 26, 78, 0.35) 0px 5px 10px;
 }
 
 .primera {
@@ -88,7 +93,7 @@ header {
     border-radius: 50px;
     color: white;
     padding: 2.5% 8%;
-    box-shadow: #242E52;
+    box-shadow: rgba(31, 26, 78, 0.35) 0px 5px 10px;
 }
 
 .different {
@@ -154,7 +159,7 @@ header {
 }
 
 .point {
-    padding: 2% 4%;
+    padding: 1.5% 4%;
     background-color: #8B48BF;
     color: white;
     font-weight: 700;
@@ -188,9 +193,9 @@ header {
 .fotos {
     position: absolute;
     display: flex;
-    gap: 330px;
-    margin-left: 12.5vw;
-    margin-top: -20vh; 
+    gap: 325px;
+    margin-left: 0.5vw;
+    margin-top: -7vh; 
 }
 
 .cuartoTitle {
@@ -221,7 +226,7 @@ header {
     border-radius: 50px;
     color: white;
     padding: 1% 5%;
-    box-shadow: #242E52;
+    box-shadow: rgba(31, 26, 78, 0.35) 0px 5px 10px;
     margin-top: 40px;
 }
 
@@ -259,7 +264,7 @@ footer {
     color:#8B48BF;
     padding: 1% 2%;
     text-align: center;
-    box-shadow: #242E52;
+    box-shadow: rgba(31, 26, 78, 0.35) 0px 5px 10px;
     width: 134px;
 }
 
@@ -326,7 +331,7 @@ input[type="email"] {
     color:white;
     padding: 3% 5%;
     text-align: center;
-    box-shadow: #242E52;
+    box-shadow: rgba(31, 26, 78, 0.35) 0px 5px 10px;
 }
 
 .footerNavItem:hover, .iconItem:hover {
@@ -380,7 +385,6 @@ input[type="email"] {
         color: white;
     }
 
-    
     .difTitle {
         font-size: 30px;
         line-height: 41.26px;
@@ -435,13 +439,6 @@ input[type="email"] {
 
     .cuarto {
         margin-top: 15vh;
-    }
-
-    .fotos {
-        position: absolute;
-        display: flex;
-        margin-left: 38vw;
-        margin-top: -40vh; 
     }
 
     .boton3 {
